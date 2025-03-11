@@ -2,5 +2,5 @@
 
 set -e
 
-# Install official vscode extension for svelte
-code --install-extension svelte.svelte-vscode
+# Install vendors
+docker-compose run --rm app npm install --yes
